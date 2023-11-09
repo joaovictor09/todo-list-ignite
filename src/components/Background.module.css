@@ -1,0 +1,8 @@
+.background {
+    width: 100%;
+    padding: 80px 0;
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

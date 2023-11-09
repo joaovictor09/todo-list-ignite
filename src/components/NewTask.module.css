@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 736px;
+    width: 100%;
+    transform: translatey(-50%);
+}
+
+.input {
+    flex: 1;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    padding: 16px;
+    color: var(--gray-100);
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--blue);
+    border-radius: 8px;
+    border: 0;
+    color: var(--gray-100);
+    padding: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.button:hover {
+    background: var(--blue-dark);
+}
